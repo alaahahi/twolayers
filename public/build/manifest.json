@@ -117,12 +117,12 @@
       "resources/js/app.js"
     ]
   },
-  "resources/js/Pages/Users/Index.css": {
-    "file": "assets/Index.44266cb8.css",
-    "src": "resources/js/Pages/Users/Index.css"
-  },
   "resources/js/app.css": {
     "file": "assets/app.42fefdca.css",
     "src": "resources/js/app.css"
+  },
+  "resources/js/Pages/Users/Index.css": {
+    "file": "assets/Index.44266cb8.css",
+    "src": "resources/js/Pages/Users/Index.css"
   }
 }

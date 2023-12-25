@@ -35,9 +35,9 @@ class UploadController extends Controller
     public function store(Request $request)
     {
     
-        $image_path =  $request->file('image')  ? $this->url ."/data/".$request->file('image')->store('image', 'public')  : "";
-        $voice_path =  $request->file('voice')  ? $this->url ."/data/".$request->file('voice')->store('voice', 'public')  : "";
-        $text_path  =  $request->file('text')   ? $this->url ."/data/".$request->file('text')->store('text', 'public')    : "" ;
+        $image_path =  $request->file('image')  ? $this->url ."/data/".$request->file('image')->store('image')  : "";
+        $voice_path =  $request->file('voice')  ? $this->url ."/data/".$request->file('voice')->store('voice')  : "";
+        $text_path  =  $request->file('text')   ? $this->url ."/data/".$request->file('text')->store('text')    : "" ;
         $lat = Crypt::encryptString($request->lat);
         $lng = Crypt::encryptString($request->lng);
         $receiver_id	 = $request->receiver_id;
